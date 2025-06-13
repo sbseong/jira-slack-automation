@@ -4,8 +4,7 @@ from datetime import datetime
 # ▶︎ 설정값
 JIRA_DOMAIN = "https://huinno.atlassian.net"
 API_EMAIL = "sbseong@huinno.com"
-API_TOKEN = "ATATT3xFfGF0PwgvDAE-l9jbl4HVPgX6U70Ivu27ayOBpLW_mdj2LX14ALoXtoOahl4gFdu8MOshImL-iwKVjHmb_V5DFak1ve8FuejJTu5pAaY_M2vm4-3yh1Og31wJhynHC2YtvCu2CtIRjvTbVT4_jiglW94qBxgsYldl8480CIEN8ZWmDFg=B095C317"
-SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
+API_TOKEN = "JIRA_TOKEN"
 
 # ▶︎ 필터 JQL
 JQL = """
