@@ -1,10 +1,12 @@
 import requests
 from datetime import datetime
+import os
+API_TOKEN = os.getenv("JIRA_TOKEN")
 
 # ▶︎ 설정값
 JIRA_DOMAIN = "https://huinno.atlassian.net"
 API_EMAIL = "sbseong@huinno.com"
-API_TOKEN = "JIRA_TOKEN"
+API_TOKEN = "API_TOKEN"
 SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
 
 # ▶︎ 필터 JQL
